@@ -14,3 +14,9 @@ reduce
 # default props is used to pass the default value....
 
 # key in react lists must be always unique.....
+
+# breakpoint
+sm-small
+md-medium
+lg-large
+xl-extra large
