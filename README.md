@@ -20,3 +20,8 @@ sm-small
 md-medium
 lg-large
 xl-extra large
+
+
+1 = 4px = 1rem
+
+nav,header is semantic
