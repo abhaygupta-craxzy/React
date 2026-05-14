@@ -1,14 +1,14 @@
 import './App.css'
+import Navbar from './components/Navbar.jsx'
 
 function App() {
 
 
   return (
-    <userCArd
-      name;
-      course;
-      marks;
-    />
+    <div>
+      <Navbar name="John Doe" course="Computer Science" marks={85}/>
+     
+    </div>
   )
 }
 
