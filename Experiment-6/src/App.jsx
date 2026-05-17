@@ -27,7 +27,7 @@ function App() {
           <input
             type="text"
             name="name"
-            placeholder="Enter Name"
+            placeholder="Enter your Name"
             value={form.name}
             onChange={handleChange}
             required
@@ -35,7 +35,7 @@ function App() {
           <input
             type="email"
             name="email"
-            placeholder="Enter Email"
+            placeholder="Enter your Email"
             value={form.email}
             onChange={handleChange}
             required
@@ -43,7 +43,7 @@ function App() {
           <input
             type="password"
             name="password"
-            placeholder="Enter Password"
+            placeholder="Enter your Password"
             value={form.password}
             onChange={handleChange}
             required
