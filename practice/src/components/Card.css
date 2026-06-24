@@ -1,0 +1,47 @@
+/* Card.css */
+
+.studentCard {
+  background: #fffdf8;
+  width: 260px;
+  padding: 20px;
+  border-radius: 18px;
+  border: 2px solid #d6c7b0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.studentCard:hover {
+  transform: translateY(-4px);
+}
+
+.topSection h2 {
+  margin: 0;
+  color: #4b5d3a;
+}
+
+.topSection p {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+.bottomSection {
+  margin-top: 15px;
+}
+
+.scoreBox h1 {
+  color: #6a8f5b;
+  margin: 5px 0;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  background: #7c9b6b;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #6b875d;
+}
