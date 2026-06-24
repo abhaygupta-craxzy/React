@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind CSS using CLI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-gray-200 ">
+    <div class="max-w-md mx-auto mt-20 p-6 bg-white rounded-xl shadow-lg text-center transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <h1 class="text-3xl font-bold text-blue-600 mb-3">Hello, Abhay!</h1>
+        <p class="text-gray-700 mb-4">This is a simple example of using Tailwind CSS with a CLI project.</p>
+
+        <button class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-100">Click
+            Me</button>
+
+
+
+
+    </div>
+    
+    <div class="max-w-md mx-auto mt-10 p-10 bg-white rounded-xl shadow-lg text-center transition duration-300 hover:shadow-2xl hover:-translate-y-2">
+        <h2 class="text-2xl font-bold text-green-600 mb-10 ">Display Properties</h2>
+        <span class="text-gray-800 bg-blue-300 p-4  font-medium ml-4 rounded-xl">Inline</span>
+        <span class="text-gray-800 bg-red-300 p-4 font-medium ml-4 rounded-xl">Block</span>
+        <span class="text-gray-800 bg-green-300 p-4 font-medium ml-4 rounded-xl">Inline-Block</span>
+    </div>
+
+  <div >
+    <h2 class="text-2xl font-bold text-green-700 mx-10">Flexbox Properties</h2>
+    <h1 class="text-gray-800 bg-blue-300 p-6  font-medium mx-10 ">Row-1</h1>
+    <h1 class="text-gray-800 bg-red-400 p-6 font-medium mx-10">Row-2</h1>
+    <!-- // range will lies to 50 to 900 -->
+    <h1 class="text-gray-800 bg-green-300 p-6 font-medium mx-10">Row-3</h1>
+ </div>
+    <br>
+    
+
+    <h1 class="text-3xl font-bold mb-6   mx-10 ">Grid System</h1>
+    <div class="grid grid-cols-3 gap-4 mx-10 mb-10">
+        <div class="bg-blue-300 p-6 font-medium">Column 1</div>
+        <div class="bg-red-400 p-6 font-medium">Column 2</div>
+        <div class="bg-green-300 p-6 font-medium">Column 3</div>
+        <div class="bg-yellow-300 p-6 font-medium">Column 4</div>
+        <div class="bg-purple-300 p-6 font-medium">Column 5</div>
+        <div class="bg-pink-300 p-6 font-medium">Column 6</div>
+    </div>
+      
+      
+    <div class="bg-blue-500 text-white p-6 m-10 rounded-lg">
+        <p class="text-white bg-pink-500  p-2 rounded-lg">this is a padding container</p>
+    </div>
+
+    <br>
+
+    <h2 class=" text-4xl font-bold text-center mb-6">Typography in Tailwind CSS</h2>
+
+    <p class="text-base leading-relaxed text-gray-700 mb-4 ml-10">This is a simple paragraph to demonstrate typography
+        in Tailwind CSS.</p>
+    <p class="text-base leading-relaxed text-gray-700 mb-4 ml-10">This is a simple paragraph to demonstrate typography
+        in Tailwind CSS.</p>
+    <p class="text-base leading-relaxed text-gray-700 mb-4 ml-10">This is a simple paragraph to demonstrate typography
+        in Tailwind CSS.</p>
+
+
+    <p class="text-xl font-semibold tracking-wide text-gray-700 mb-4 ml-10">This is a larger paragraph to show how
+        Tailwind CSS handles different text sizes.</p>
+    <br>
+
+    <!-- we can divide the color by using divide-color and divide-y-2  -->
+    <div class="divide-y-2 divide-red-400 mx-10 mb-10">
+        <div class="py-4">Item 1
+            <p class="text-gray-700">This is the first item in the list.</p>
+        </div>
+        <div class="py-4">Item 2
+            <p class="text-gray-700">This is the second item in the list.</p>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- default is for mobile devices 
+    sm: small devices (640px and up) --- it is basically used  for tablets
+    md: medium devices (768px and up)
+    lg: large devices (1024px and up)
+    xl: extra-large devices (1280px and up)
+    2xl: extra-extra-large devices (1536px and up) -->
+
+    <div class="bg-blue-500 text-white p-4 m-10  sm:p-6 md:p-8 lg:p-10 transition duration-300 hover:shadow-lg hover:-translate-y-1 rounded-2xl">
+        <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold">Responsive Design with Tailwind CSS</h2>
+        <p class="text-sm sm:text-base md:text-lg lg:text-xl  mt-4">Resize the browser window to see how the text size changes based on the screen size.</p>
+    </div>
+
+    <br>
+
+    <div>
+        
+    </div>
+
+</body>
+
+</html>
