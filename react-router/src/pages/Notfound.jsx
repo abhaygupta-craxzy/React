@@ -1,8 +1,8 @@
 const Notfound = () => {
   return (
     <div>
-      <h1>404 - Page Not Found</h1>
-      <p>The page you are looking for does not exist.</p>
+      <h1 style={{margin: "20px"}}>404 - Page Not Found</h1>
+      <p style={{margin: "20px"}}>The page you are looking for does not exist.</p>
     </div>
   )
 }
